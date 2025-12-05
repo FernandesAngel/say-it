@@ -31,9 +31,24 @@ export const Clipboard = styled.button`
   border-radius: 4px;
   color: #1c1b1b;
 `
-export const Text = styled.p`
+export const Text = styled.div`
   margin: 0;
   padding: 16px 20px;
-  min-height: 120px;
-  font-size: 0.8;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`
+
+export const TextArea = styled.textarea`
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 780px;
+  font-size: 0.9;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px;
+  resize: vertical;
+  margin: 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
 `
